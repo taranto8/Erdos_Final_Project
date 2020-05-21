@@ -1,0 +1,106 @@
+These results are with ranks 3,4,5 combined into rank 3.
+LDA
+accuracy: 74.67999999999999 %
+precision: 54.774982754928544 %
+recall: 54.625149321996446 %
+
+RFC
+accuracy: 77.66666666666666 %
+precision: 77.11087609895074 %
+recall: 49.429944032980515 %
+
+SVC
+accuracy: 77.66666666666666 %
+precision: 77.11087609895074 %
+recall: 49.429944032980515 %
+
+KNN
+accuracy: 72.6 %
+precision: 52.56546252352397 %
+recall: 52.25357734822378 %
+
+MLP
+accuracy: 77.66666666666666 %
+precision: 77.11087609895074 %
+recall: 49.429944032980515 %
+
+AdaBoost_clf
+accuracy: 77.66666666666666 %
+precision: 77.11087609895074 %
+recall: 49.429944032980515 %
+
+Voting_clf
+accuracy: 77.66666666666666 %
+precision: 77.11087609895074 %
+recall: 49.429944032980515 %
+
+Bagging_KNN_clf
+accuracy: 77.52 %
+precision: 76.81312109521335 %
+recall: 49.597219468521885 %
+
+Bagging_MLP_clf
+accuracy: 77.66666666666666 %
+precision: 77.11087609895074 %
+recall: 49.429944032980515 %
+
+Pasting_KNN_clf
+accuracy: 77.52 %
+precision: 76.81312109521335 %
+recall: 49.597219468521885 %
+
+
+
+
+
+
+These results are with ranks 2,3 combined into rank 2 and ranks 4,5 combined into rank 3.
+LDA
+accuracy: 88.68 %
+precision: 94.34 %
+recall: 50.0 %
+
+RFC
+accuracy: 88.30667 %
+precision: 79.59895 %
+recall: 60.57694 %
+
+SVC
+accuracy: 88.68 %
+precision: 94.34 %
+recall: 50.0 %
+
+KNN
+accuracy: 88.4 %
+precision: 79.26956 %
+recall: 58.69731 %
+
+MLP
+accuracy: 88.30667 %
+precision: 79.59895 %
+recall: 60.57694 %
+
+AdaBoost_clf
+accuracy: 88.30667 %
+precision: 79.59895 %
+recall: 60.57694 %
+
+Voting_clf
+accuracy: 88.4 %
+precision: 79.26956 %
+recall: 58.69731 %
+
+Bagging_KNN_clf
+accuracy: 88.30667 %
+precision: 79.59895 %
+recall: 60.57694 %
+
+Bagging_MLP_clf
+accuracy: 88.61333 %
+precision: 89.23484 %
+recall: 51.92546 %
+
+Pasting_KNN_clf
+accuracy: 88.30667 %
+precision: 79.59895 %
+recall: 60.57694 %
