@@ -1,0 +1,52 @@
+These results are with all ranks separate.
+Note also that we have oversampled to balance out the training set.
+
+LDA
+accuracy: 42.482611 %
+precision: 51.9335362 %
+recall: 42.4841508 %
+
+RFC
+accuracy: 43.1246656 %
+precision: 49.1039926 %
+recall: 43.1248584 %
+
+SVC
+accuracy: 42.5254147 %
+precision: 52.2628129 %
+recall: 42.5253258 %
+
+KNN
+accuracy: 34.5746388 %
+precision: 38.4364614 %
+recall: 34.5706585 %
+
+MLP
+accuracy: 43.0069556 %
+precision: 51.4838055 %
+recall: 43.0069246 %
+
+AdaBoost_clf
+accuracy: 42.5147138 %
+precision: 49.1045894 %
+recall: 42.5152328 %
+
+Voting_clf
+accuracy: 42.6645265 %
+precision: 40.7750403 %
+recall: 42.6669438 %
+
+Bagging_KNN_clf
+accuracy: 43.2744783 %
+precision: 52.3086088 %
+recall: 43.2746197 %
+
+Bagging_MLP_clf
+accuracy: 42.7073301 %
+precision: 42.9232221 %
+recall: 42.7105561 %
+
+Pasting_KNN_clf
+accuracy: 43.199572 %
+precision: 51.9197199 %
+recall: 43.1997534 %
