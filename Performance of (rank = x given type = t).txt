@@ -1,0 +1,57 @@
+We predict for y = rank using type. These results are with all ranks separate.
+Oversampled on rank.
+
+LDA
+accuracy: 42.3709168 %
+precision: 37.28343 %
+recall: 42.3708096 %
+
+RFC
+accuracy: 43.1401475 %
+precision: 44.9160362 %
+recall: 43.1402583 %
+
+SVC
+accuracy: 42.3814542 %
+precision: 52.102507 %
+recall: 42.3806971 %
+
+KNN
+accuracy: 37.829294 %
+precision: 40.2407551 %
+recall: 37.8348007 %
+
+MLP
+accuracy: 42.3919916 %
+precision: 48.3775326 %
+recall: 42.3895848 %
+
+CNB
+accuracy: 35.7639621 %
+precision: 45.1285847 %
+recall: 35.7620608 %
+
+AdaBoost_clf
+accuracy: 43.1401475 %
+precision: 44.9160362 %
+recall: 43.1402583 %
+
+Voting_clf
+accuracy: 42.2866175 %
+precision: 43.071934 %
+recall: 42.2864602 %
+
+Bagging_KNN_clf
+accuracy: 43.0979979 %
+precision: 44.899297 %
+recall: 43.098153 %
+
+Bagging_MLP_clf
+accuracy: 42.7291886 %
+precision: 42.741863 %
+recall: 42.7312595 %
+
+Pasting_KNN_clf
+accuracy: 43.024236 %
+precision: 44.8409392 %
+recall: 43.0244688 %

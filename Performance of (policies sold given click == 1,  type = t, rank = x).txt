@@ -1,0 +1,56 @@
+We predict for y = (policies sold | click == 1,  type = t, rank = x). Oversampled on policies sold.
+
+LDA
+accuracy: 61.5954139 %
+precision: 61.8551775 %
+recall: 61.5929032 %
+
+RFC
+accuracy: 60.470592 %
+precision: 61.2287285 %
+recall: 60.4735484 %
+
+SVC
+accuracy: 60.0641275 %
+precision: 60.3507434 %
+recall: 60.0625806 %
+
+KNN
+accuracy: 56.9264153 %
+precision: 57.6146795 %
+recall: 56.9232258 %
+
+MLP
+accuracy: 60.387032 %
+precision: 61.0685899 %
+recall: 60.3883871 %
+
+CNB
+accuracy: 60.0641275 %
+precision: 60.3507434 %
+recall: 60.0625806 %
+
+AdaBoost_clf
+accuracy: 60.0670424 %
+precision: 60.7982854 %
+recall: 60.0696774 %
+
+Voting_clf
+accuracy: 60.7092888 %
+precision: 60.9611908 %
+recall: 60.7096774 %
+
+Bagging_KNN_clf
+accuracy: 59.2615624 %
+precision: 59.4013641 %
+recall: 59.2612903 %
+
+Bagging_MLP_clf
+accuracy: 59.5821998 %
+precision: 60.3287059 %
+recall: 59.5845161 %
+
+Pasting_KNN_clf
+accuracy: 59.2602669 %
+precision: 59.2981621 %
+recall: 59.256129 %

@@ -1,0 +1,56 @@
+We predict for y = (click == 1 | type = t, rank = x). Oversampled on click == 1.
+
+LDA
+accuracy: 70.7805255 %
+precision: 71.3135946 %
+recall: 70.7805255 %
+
+RFC
+accuracy: 73.8098918 %
+precision: 74.3904053 %
+recall: 73.8098918 %
+
+SVC
+accuracy: 70.61051 %
+precision: 71.3575488 %
+recall: 70.61051 %
+
+KNN
+accuracy: 67.9057187 %
+precision: 70.5994584 %
+recall: 67.9057187 %
+
+MLP
+accuracy: 72.4652241 %
+precision: 72.9883394 %
+recall: 72.4652241 %
+
+CNB
+accuracy: 70.0309119 %
+precision: 70.0968163 %
+recall: 70.0309119 %
+
+AdaBoost_clf
+accuracy: 73.8330757 %
+precision: 74.5055895 %
+recall: 73.8330757 %
+
+Voting_clf
+accuracy: 71.6615147 %
+precision: 72.131971 %
+recall: 71.6615147 %
+
+Bagging_KNN_clf
+accuracy: 73.1839258 %
+precision: 74.4641213 %
+recall: 73.1839258 %
+
+Bagging_MLP_clf
+accuracy: 72.1329212 %
+precision: 72.1690117 %
+recall: 72.1329212 %
+
+Pasting_KNN_clf
+accuracy: 73.1761978 %
+precision: 74.3763134 %
+recall: 73.1761978 %
