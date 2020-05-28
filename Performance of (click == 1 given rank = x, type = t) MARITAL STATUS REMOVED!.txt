@@ -1,0 +1,56 @@
+We predict for y = (click == 1 | type = t, rank = x). Marital status removed! Oversampled on click == 1.
+
+LDA
+accuracy: 70.3400309 %
+precision: 71.1180591 %
+recall: 70.3400309 %
+
+RFC
+accuracy: 72.9598145 %
+precision: 74.7483343 %
+recall: 72.9598145 %
+
+SVC
+accuracy: 70.3400309 %
+precision: 71.1180591 %
+recall: 70.3400309 %
+
+KNN
+accuracy: 65.8037094 %
+precision: 71.8887771 %
+recall: 65.8037094 %
+
+MLP
+accuracy: 72.5579598 %
+precision: 73.8359723 %
+recall: 72.5579598 %
+
+CNB
+accuracy: 69.9613601 %
+precision: 69.9638793 %
+recall: 69.9613601 %
+
+AdaBoost_clf
+accuracy: 72.9598145 %
+precision: 74.7483343 %
+recall: 72.9598145 %
+
+Voting_clf
+accuracy: 70.4868624 %
+precision: 71.1136087 %
+recall: 70.4868624 %
+
+Bagging_KNN_clf
+accuracy: 72.9829985 %
+precision: 74.8620462 %
+recall: 72.9829985 %
+
+Bagging_MLP_clf
+accuracy: 71.9319938 %
+precision: 71.9397617 %
+recall: 71.9319938 %
+
+Pasting_KNN_clf
+accuracy: 72.8825348 %
+precision: 74.6440047 %
+recall: 72.8825348 %

@@ -1,0 +1,56 @@
+We predict for y = (policies sold | click == 1,  type = t, rank = x). Marital_status removed! Oversampled on policies sold.
+
+LDA
+accuracy: 61.6737919 %
+precision: 61.9130503 %
+recall: 61.6703226 %
+
+RFC
+accuracy: 61.3525068 %
+precision: 62.4381684 %
+recall: 61.3470968 %
+
+SVC
+accuracy: 60.7873429 %
+precision: 61.0852518 %
+recall: 60.7845161 %
+
+KNN
+accuracy: 57.1686747 %
+precision: 57.5000672 %
+recall: 57.1593548 %
+
+MLP
+accuracy: 59.0137971 %
+precision: 64.3567753 %
+recall: 59.0174194 %
+
+CNB
+accuracy: 60.7873429 %
+precision: 61.0852518 %
+recall: 60.7845161 %
+
+AdaBoost_clf
+accuracy: 61.9970203 %
+precision: 63.0078363 %
+recall: 61.9903226 %
+
+Voting_clf
+accuracy: 60.7079933 %
+precision: 60.9895382 %
+recall: 60.7135484 %
+
+Bagging_KNN_clf
+accuracy: 61.2699184 %
+precision: 61.4133847 %
+recall: 61.2658065 %
+
+Bagging_MLP_clf
+accuracy: 60.5467029 %
+precision: 61.0206098 %
+recall: 60.5387097 %
+
+Pasting_KNN_clf
+accuracy: 61.2699184 %
+precision: 61.4133847 %
+recall: 61.2658065 %
