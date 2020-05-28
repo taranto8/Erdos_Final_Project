@@ -1,0 +1,25 @@
+We have removed marital_status so that the code can actually run in time.
+Recommended new ranks:  [1, 5, 2, 5, 4, 5, 3, 5]
+These correspond to the following types:
+type (i=0, v=1, d=1) gets new rank:  1
+type (i=0, v=2, d=1) gets new rank:  5
+type (i=0, v=1, d=2) gets new rank:  2
+type (i=0, v=2, d=2) gets new rank:  5
+type (i=1, v=1, d=1) gets new rank:  4
+type (i=1, v=2, d=1) gets new rank:  5
+type (i=1, v=1, d=2) gets new rank:  3
+type (i=1, v=2, d=2) gets new rank:  5
+
+Old ranks:
+type (i=0, v=1, d=1) has old rank:  1
+type (i=0, v=2, d=1) has old rank:  5
+type (i=0, v=1, d=2) has old rank:  1
+type (i=0, v=2, d=2) has old rank:  4
+type (i=1, v=1, d=1) has old rank:  3
+type (i=1, v=2, d=1) has old rank:  5
+type (i=1, v=1, d=2) has old rank:  2
+type (i=1, v=2, d=2) has old rank:  4
+
+Recall that higher weight is better in terms of cost and maximum weight is 1.
+Weight of new strategy:  0.80382
+Weight of original strategy:  0.70498
